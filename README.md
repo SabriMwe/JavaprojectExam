@@ -1,10 +1,16 @@
 # JaavaProjectClassExam
-The System Is  Called Prignant Woment Information Sysytem 
-
 
 NAMES: Sabrina MWERERE
+
+
+
 REG NO: 2210211818
+
+
+
 CLASS NO: 68
+
+
 PROJECT NAME: PREGNANT WOMEN INFORMATION SYSTEM
 1. PLANNING
 Pregnant women information system is a system formed with the purpose of helping women
