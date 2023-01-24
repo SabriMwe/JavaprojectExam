@@ -1,72 +1,85 @@
 # JaavaProjectClassExam
 The System Is  Called Prignant Woment Information Sysytem 
 
-REG:221004576 
 
-
-
-Name: Muhoza John
-
-
-No: 45
-
-
-
-1.PLANNING
-  Due to different difficulties we conducted from different women ,we saw that there is a problem of getting to know how the babies in their womb are doing ,that’s when we come up with the idea of PREGNANT WOMEN INFORMATION SYSTEM which will also direct them how to keep those babies healthy in their womb .
-This systemalso will guide the pregnant women for problems being happen to them in every week , it means the system will provide the useful information from 1st week of pregnancy to 40th week of pregnancy .
-This program will solve the problem of time spent in movements made by pregnancy women to hospital 
-Users will be able to ask questions through email,mobile  phone (sms,calls) whenever they are and the doctor will respond that.
-
-2.DESIGN .
-The software includes two external entities; user,admin/doctor.
-This software will firstily require the user to create an account (username,password,email) it will also asks for other useful information ,after account creation user will be  directed to home page to acces the information of pregnancy from 1st week to 40th week .
-The account holder will use that information due to her situation ,if there is some inconvenience to her situation ,she will inform directly the doctor /admin through contacts listed in footer, and doctor will respond and recommend directly the user special treatment .
-Admin will also have an account with required credentials where he/she will get the control of every action taking place ,Admin will be able to delete ,update user’s information and will also respond to the questions questioned by users.
-
-3.DEVELOPMENT 
-    Front end technology 
-This front end technology is the part of website that the user interacts with directly, it includes everything that users experience directly text colors and styles ,image,graphs and tables ,buttons colors and navigation menu .Java script,html, and css are the languages that we used in front end development 
-HTML; stands for hypertext markup language , it’s use is to design the froat end portion of webpages using markup language .it is a combination of hypertext and markup language and hypertext defines the link between webpage.
-CSS;it standsfor cascading styles sheets ,it is designed by language intended to make easier the processof making webpage presentable ,we used it to put styles to web page.
-
-JAVA SCRIPT; Is used to create magic on site to make the user interactive with the site .it was used to enhance the functionality of website to run web based software .we used it for both front end and back end .
-
-Front -end- Frameworks and libraries ;
-We used com.mysql.sdbc.5.1.5.  as library handling my-sql connection with the system .
-Back end developer 
-Backend is server side of the website it stores and arranges data and also makes sure if every thing on client side of website works well . here we used jsp and servlet technologies to perfom activities like writing apls, creating libraliesand working with system components without user interface or even systems of scientific programming and ciud operations (create read update delete)
-
-Storage and database 
-We used MYSQL database management system to store  da from back end operations 
-Other technologies we used in our project is xzammp as server, MYSQL as database and Eclipse as IDE.
-
+NAMES: Sabrina MWERERE
+REG NO: 2210211818
+CLASS NO: 68
+PROJECT NAME: PREGNANT WOMEN INFORMATION SYSTEM
+1. PLANNING
+Pregnant women information system is a system formed with the purpose of helping women
+that are pregnant to well behave in their pregnancies journey, nowadays people don’t know
+how to take care of themselves especially women with babies.
+So, our system will just help those women by directing them about what food to take as a
+pregnant women or what things to do and not do during that period. One of the problems
+that the system will solve is the unawareness of different things about how to behave during
+the pregnancy.
+2. DESIGN
+The system will have two external entities, user, admin/doctor. The mother should firstly
+create an account with the following information (username, password, email), after the
+registration she will be directed to the home page so as to access the information compose of
+pregnancy from a week to 40 weeks.
+The mother will have the chance of contacting directly a doctor as we will provide contacts
+listed in footer and the doctor will respond directly which is not the case when it is manual,
+something you go to the hospital and you just delay or you go at home without treatment.
+The administration of business (admin) will have to have an account and should control every
+action that is being done on the software, access on update, delete and give answers to
+questions that will be asked.
+3. DEVELOPMENT
+Front end technology is what we see and interact with as the visitors of a website or as the
+end-user of a system. It is composed of images, graphs, tables, buttons and navigation menu.
+In development of front end, we used:
+JAVA SCRIPT: is used to create dynamic and interactive web content like applications and
+browsers, it is also the most used programming language in the world, we used it for both
+front end and back end.
+HTML:( Hypertext Markup Language) is the most basic building block of the web, it defines the
+structure and the meaning of web content. We used it to design the front end of webpages.
+CSS:(Cascading Style Sheets) is used to style and layout web pages, we used it to alter the
+front color, size and spacing our content . we also designed to put styles to web page.
+We used cam. mysql. sdbc.5.1.5 as library handling my sql connection with the system. Back
+end is a server that stores and arranges data and make sure that the task is well accomplished
+and the software works well. In activities like writing apls , creating libraries/resand we used
+jsp and servlet technologies.
+DATABASE AND STORAGE
+We used MYSQL database management system to store data from back-end operations. we
+also used XZAMP as server and Eclipse as IDE.
 4. TESTING
-
-Testing enables teams to identify and address potential problems before they affect users. We followed six key phases of the software testing lifecycle:
-
-1. Requirement analysis
-During this phase, we maped the environments in which the software will run and determine who will use the app. We considered any possible outcome that can occur, both immediately and in the future.
+Testing in software means the process in which a quality assurance (QA) team evaluates how
+the various components of an application interact together. In the full, integrated system or
+application through the use of these Six key phases of the software testing lifecycle.
+ 1. Requirement Analysis
+During this phase, testers map (a diagrammatic representation of an area of land or sea
+showing physical features, cities, roads and environments). Once this phase is over, the actual
+planning starts.
 2. Test planning
-Here is when we thought about what's needed to complete the test and meet objectives. We considered the following:
-•	what is needed to test an application that's running in Pregnancy information 
-•	If it's necessary to test how the application will scale; 
-•	how many users can access the application before it scales; and 
-•	how many resources the application has before scaling out,….
-3. Test case development
-After planning our tests -- and what we will test -- we determined the technical details for each test case. For example, if it is necessary to deploy an application to pregnancy to test it, we needed pregnancy manifest and some automation scripts to get the application up and running.
-4. Test environment setup
-In this stage of the software testing lifecycle, we identified where the tests will run. For example, Rwandan population is needed to perform testing, we implemented one of the several options to deploy one which is Huye district population.
-5. Test execution
-We have shared access to the testing environment and associated code. Contrastingly, it's not a best practice for team members to all store code on our local computers.
-6. Test reporting
-Without reports, tests aren't entirely helpful. We used test report to understand if an application works as expected.
-5.Deployment
-
-•	we Adopted Continuous Delivery
-•	we used an automated Software Deployment Process
-•	we Create a Checklist for Deployment
-•	we Made a Backup Plan
-•	Selected the Most Appropriate Deployment Method by implementing software that is simple to integrate with other tools and existing local applications.
-•	Used a Continuous Integration Serve. This ensures that the generated application will run on a developer's system, as well as avoid "integration hell."
-
+Here the QA professionals think about what’s needed to complete the test and meet
+objectives. We tried to consider the following:
+• Whether it’s necessary to test how the application will scale.
+• How many users can access the application before it scales and
+• How many resources such as CPU and memory, the application has before scaled out.
+3. Testing Case development
+After planning our tests and what we will test, we determined the technical details for
+each test case. For example; it’s necessary to deploy an application. With the use of
+pregnancy manifest and some automation scripts to get the application up and
+running.
+4.Test environment setup
+We identified where the tests will run. For example; The population is needed to
+perform testing. We implemented one of the options to deploy one which is Huye
+district population.
+5.Test execution
+As AQ engineers, we should share access to the testing environment and associated
+code. The testers should store the code in GitHub and execute the automation code
+via a CI/CD pipeline.
+6.Test reporting
+In this stage, management will review how the software performs and from there,
+decide how to move forward. Without reports, tests aren’t entirely helpful. We used
+test report to understand if an application works as expected.
+ 5.Deployment
+This means the action of bringing resources into effective action in other words, it is
+the mechanism through which applications, modules, updates and patches are
+delivered from developers to users.
+➢ We used an automated software development process.
+➢ We created a checklist for deployment.
+➢ We made a Backup plan.
+➢ We selected the most appropriate deployment method by implementing software
+that is simple to integrate with other tools and existing local applications.
